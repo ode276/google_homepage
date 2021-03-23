@@ -1,18 +1,72 @@
-#nav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-#eb {
-    list-style-type: none;
-    border-radius: 50%;
-    width: 25px;
-    height: 25px;
-    border-right-style: 50px;
-}
-
-#appspng {
-    width: 20px;
-    height: 20px;
-}
+                                            #nav_bar {
+                                                float: right;
+                                            }
+                                            
+                                            #nav_bar li {
+                                                display: inline-block;
+                                                padding: 8px;
+                                            }
+                                            
+                                            _#nav_bar {
+                                                margin-right: 25px;
+                                                padding: 7px 15px;
+                                                font-weight: bold;
+                                            }
+                                            
+                                            a {
+                                                text-decoration: none;
+                                                color: inherit;
+                                            }
+                                            
+                                            li.nav-links a:hover {
+                                                text-decoration: underline;
+                                            }
+                                            
+                                            #eb {
+                                                display: inline;
+                                                list-style-type: none;
+                                                border-radius: 50%;
+                                                width: 25px;
+                                                height: 25px;
+                                                float: right;
+                                            }
+                                            
+                                            #apps {
+                                                display: inline;
+                                                width: 25px;
+                                                height: 25px;
+                                                margin-right: 8px;
+                                                margin-left: 8px;
+                                                float: right;
+                                            }
+                                            
+                                            #Images {
+                                                float: right;
+                                            }
+                                            
+                                            #About {
+                                                float: left;
+                                                margin: 15 px;
+                                            }
+                                            
+                                            .buttons {
+                                                display: none;
+                                            }
+                                            
+                                            div {
+                                                display: block;
+                                                margin: auto;
+                                                text-align: center;
+                                                padding-top: 14%;
+                                            }
+                                            
+                                            div img {
+                                                width: 270px;
+                                                height: 95px;
+                                                margin: 5px;
+                                            }
+                                            
+                                            #search {
+                                                width: 570px;
+                                                height: 28px;
+                                            }
